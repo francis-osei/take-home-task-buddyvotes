@@ -2,7 +2,7 @@ import NavItem from "./NavItem";
 
 export default function Nav() {
   return (
-    <ul className="flex gap-[4rem]">
+    <ul className="flex gap-[4rem] items-center">
       <NavItem lable="Home" isActive={true} />
       <NavItem lable="About Us" />
       <NavItem lable="Gallery" />
