@@ -1,8 +1,24 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Sora } from "next/font/google";
 import "./globals.css";
+import localFont from "next/font/local";
 
-const inter = Inter({ subsets: ["latin"] });
+const sora = Sora({
+  subsets: ["latin"],
+  weight: ["100", "300", "700"],
+  variable: "--font-sora",
+});
+
+const gilroy = localFont({
+  src: [
+    { path: "../fonts/gilroy/Gilroy-Bold.ttf", weight: "400" },
+    { path: "../fonts/gilroy/Gilroy-Heavy.ttf", weight: "400" },
+    { path: "../fonts/gilroy/Gilroy-Light.ttf", weight: "400" },
+    { path: "../fonts/gilroy/Gilroy-Medium.ttf", weight: "400" },
+    { path: "../fonts/gilroy/Gilroy-Regular.ttf", weight: "400" },
+  ],
+  variable: "--font-gilroy",
+});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,7 +32,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${gilroy.variable}`}>{children}</body>
     </html>
   );
 }
