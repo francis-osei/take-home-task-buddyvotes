@@ -10,8 +10,8 @@ export default function FeatureCard({
   content: string;
 }) {
   return (
-    <div className="flex flex-col  gap-[1rem] w-[43.5rem]">
-      <div className=" flex items-center justify-center w-[6.742rem] h-[6.6rem] rounded-[2.2rem] bg-[#F2F6FE]">
+    <div className="flex flex-col  gap-[1rem] max-w-[43.5rem]">
+      <div className=" flex items-center justify-center max-w-[6.742rem] h-[6.6rem] rounded-[2.2rem] bg-[#F2F6FE]">
         <Image src={icon} alt="" width={33} height={33} />
       </div>
       <span className="font-sora font-bold text-[2.4rem] leading-[4.2rem]">

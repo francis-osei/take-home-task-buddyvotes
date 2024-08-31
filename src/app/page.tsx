@@ -4,6 +4,7 @@ import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import NewsLetter from "@/components/NewsLetter";
+import Stories from "@/components/stories";
 import Testimonial from "@/components/Testimonial";
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
       <NewsLetter />
       <Testimonial />
       <Achievement />
+      <Stories />
       <Footer />
     </main>
   );

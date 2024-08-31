@@ -3,7 +3,7 @@ import NewsLetterCard from "./NewLetterCard";
 
 export default function NewsLetter() {
   return (
-    <section className="flex flex-col gap-[3.2rem] items-center pt-[9.1rem] pb-[8.6rem] bg-[#F4F6F8]">
+    <section className="flex flex-col justify-center  px-10 gap-[3.2rem]  items-center pt-[9.1rem] pb-[8.6rem] bg-[#F4F6F8]">
       <div className="flex flex-col items-center gap-[.6rem]">
         <h3 className="font-sora font-semibold text-[2.4rem] leading-[3.024rem]">
           Latest Newsletter
@@ -13,7 +13,7 @@ export default function NewsLetter() {
         </p>
       </div>
 
-      <div className="flex gap-[4rem] mb-[1.7rem]">
+      <div className="flex flex-wrap justify-center gap-[4rem] mb-[1.7rem]">
         <NewsLetterCard
           photo="/images/newsletter/happy-black-boy-smiling.jpg"
           title="New school fees release ahead of next academic year"

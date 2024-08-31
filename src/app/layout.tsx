@@ -5,16 +5,16 @@ import localFont from "next/font/local";
 
 const sora = Sora({
   subsets: ["latin"],
-  weight: ["100", "300", "700"],
+  weight: ["100", "300", "400", "500", "600", "700"],
   variable: "--font-sora",
 });
 
 const gilroy = localFont({
   src: [
-    { path: "../fonts/gilroy/Gilroy-Bold.ttf", weight: "400" },
-    { path: "../fonts/gilroy/Gilroy-Heavy.ttf", weight: "400" },
-    { path: "../fonts/gilroy/Gilroy-Light.ttf", weight: "400" },
-    { path: "../fonts/gilroy/Gilroy-Medium.ttf", weight: "400" },
+    { path: "../fonts/gilroy/Gilroy-Bold.ttf", weight: "700" },
+    { path: "../fonts/gilroy/Gilroy-Heavy.ttf", weight: "900" },
+    { path: "../fonts/gilroy/Gilroy-Light.ttf", weight: "300" },
+    { path: "../fonts/gilroy/Gilroy-Medium.ttf", weight: "500" },
     { path: "../fonts/gilroy/Gilroy-Regular.ttf", weight: "400" },
   ],
   variable: "--font-gilroy",

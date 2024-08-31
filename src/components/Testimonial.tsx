@@ -2,10 +2,10 @@ import Image from "next/image";
 
 export default function Testimonial() {
   return (
-    <section className="py-[12.4rem] bg-[#052326]">
-      <figure className="flex gap-[5rem] items-center justify-center">
-        <div className="flex flex-col gap-[2.6rem] text-white">
-          <p className="font-sora font-semibold text-[4rem] text-white leading-[5.04rem] w-[81.3rem]">
+    <section className="py-[12.4rem] bg-[#052326] px-10">
+      <figure className="flex flex-wrap gap-[5rem] items-center justify-center">
+        <div className="flex flex-col  gap-[2.6rem] text-white">
+          <p className="font-sora font-semibold text-[4rem] text-white leading-[5.04rem] max-w-[81.3rem]">
             “ We appreciate the school&apos;s emphasis on diversity, equity, and
             inclusion. Our daughter has been exposed to a wide range of cultures
             and perspectives. ”

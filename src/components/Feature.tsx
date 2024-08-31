@@ -3,7 +3,7 @@ import FeatureCard from "./FeatureCard";
 
 export default function Feature() {
   return (
-    <section className="flex flex-col gap-[3.7rem] items-center py-[7.2rem]">
+    <section className="flex flex-col  px-10 gap-[3.7rem] items-center py-[7.2rem]">
       <div className="flex flex-col gap-[.9rem] items-center">
         <h2 className="font-sora font-semibold text-[2.4rem] leading-[3.024rem]">
           Why your ward should be here
@@ -12,7 +12,7 @@ export default function Feature() {
           Providing an exceptional educational experience for success
         </p>
       </div>
-      <div className="flex gap-[4.4rem] mb-[1.5rem]">
+      <div className="flex flex-wrap justify-center gap-[4.4rem] mb-[1.5rem]">
         <FeatureCard
           icon="/icons/png/graduation-hat.png"
           title="Outstanding Faculty"
