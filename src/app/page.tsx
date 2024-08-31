@@ -1,3 +1,4 @@
+import Achievement from "@/components/achievement";
 import Feature from "@/components/Feature";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
@@ -13,6 +14,7 @@ export default function Home() {
       <Feature />
       <NewsLetter />
       <Testimonial />
+      <Achievement />
       <Footer />
     </main>
   );
