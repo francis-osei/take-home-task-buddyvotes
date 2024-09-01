@@ -29,7 +29,7 @@ export default function Feature() {
           content="Our school is equipped with modern and innovative facilities, including science and computer labs, libraries, sports grounds, and more. These facilities provide students with the tools they need to excel in their studies and develop their talents."
         />
       </div>
-      <Button text={"Enroll your ward now"} />
+      <Button text={"Enroll your ward now"} link={"/dashboard"} />
     </section>
   );
 }

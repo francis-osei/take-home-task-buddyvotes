@@ -10,15 +10,15 @@
   } */
 
 html {
-  font-size: 55%;
+  font-size: 44%;
   @media only screen and (min-width: 1920px) {
     font-size: 60%;
   }
   @media only screen and (max-width: 43.8rem) {
-    font-size: 40%;
+    font-size: 50%;
   }
   @media only screen and (max-width: 22.81em) {
-    font-size: 35%;
+    font-size: 45%;
   }
 }
 
@@ -28,7 +28,7 @@ html {
 .layout {
   display: grid;
   grid-template-columns: max-content 1fr;
-  grid-template-rows: 1fr;
+  grid-template-rows: max-content 1fr;
   height: 100vh;
 }
 
@@ -53,21 +53,30 @@ html {
   }
 }
 
-.hide{
+.hide {
   @media only screen and (max-width: 972px) {
     display: none;
   }
-  
 }
-.hide-img{
-  @media only screen and (max-width: 1464px) {
+.hide-img {
+  @media only screen and (max-width: 1209px) {
     display: none;
   }
-  
+}
+
+.small {
+  @media only screen and (min-width: 344px) {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+.top-full {
+  grid-column: 1 / -1;
 }
 
 .footer {
-  @media only screen and (max-width: 1416px) {
+  @media only screen and (max-width: 700px) {
     justify-content: start;
   }
 }

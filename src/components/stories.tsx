@@ -4,13 +4,12 @@ export default function Stories() {
   return (
     <div className="relative h-[59.2rem] pt-[13.6rem]">
       <div className=" flex flex-col justify-center gap-[5rem] items-center">
-        <h2 className="font-sora font-semibold text-[4rem] leading-[5.4rem] w-[65.7rem] text-center">
+        <h2 className="font-sora font-semibold text-[4rem] leading-[5.4rem] max-w-[65.7rem] text-center">
           Enroll your ward to join
           <br />
           over 3000+ successful students
         </h2>
-
-        <Button text="Enroll your ward now" />
+        <Button text="Enroll your ward now" link="/dashboard" />
       </div>
 
       <div className="absolute hide-img  top-[10rem] left-[10rem] w-[15.1rem] h-[15.1rem]">

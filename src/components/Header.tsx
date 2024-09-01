@@ -3,10 +3,10 @@ import Nav from "./Nav";
 
 export default function Header() {
   return (
-    <div className="hide flex justify-center items-center mt-[3.9rem] mb-[3.3rem] mx-auto w-full">
+    <div className=" flex justify-center items-center mt-[3.9rem] mb-[3.3rem] mx-auto w-full">
       <div className="header flex gap-[34.2rem]">
         <Logo />
-        <div className="flex gap-[4rem]">
+        <div className="flex gap-[4rem] hide">
           <Nav />
           <svg className="flex items-center w-[2.4rem] h-[2.4rem]">
             <use xlinkHref={`/icons/svg/sprite.svg#icon-search`}></use>

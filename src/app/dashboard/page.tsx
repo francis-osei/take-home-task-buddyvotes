@@ -4,11 +4,29 @@ import SideNav from "@/components/SideNav";
 export default function Dashboard() {
   return (
     <div className="layout">
-      <div>
+      <div className="small  flex flex-shrink items-center pr-[11.5rem] gap-[45.6rem] mt-[3rem] justify-end top-full">
+        <a
+          href="#"
+          className="font-gilroy font-medium text-[1.6rem] leading-[2.4rem] border-[.1rem] px-[2.6rem] py-[1rem] rounded-[1.9rem] border-black"
+        >
+          Visit Wesbsite
+        </a>
+        <div className="flex items-center gap-[.7rem]">
+          <div className="rounded-full bg-[#F7F9FC] p-[1.3rem]">
+            <svg className="w-[1.9rem] h-[2.2rem]">
+              <use xlinkHref="/icons/svg/sprite.svg#icon-notification"></use>
+            </svg>
+          </div>
+          <div className="w-[4.6rem] h-[4.6rem]">
+            <img src="/page/Ellipse-3.jpg" alt="photo of the user" />
+          </div>
+        </div>
+      </div>
+      <div className=" md:mt-[3.1rem]  ">
         <SideNav />
       </div>
-      <div className="pl-[6.3rem] pr-[12.4rem]">
-        <div className="flex items-center justify-between">
+      <div className="small md:pl-[6.3rem] md:pr-[12.4rem] md:mt-[3.1rem] sm:pl-[2rem] sm:pr-[2rem]">
+        <div className="flex  flex-wrap gap-y-10 items-center justify-between">
           <span className=" font-gilroy font-semibold text-[2.4rem] leading-[2.4rem]">
             Newsletters
           </span>
