@@ -6,7 +6,7 @@ import SubscribeToNewsLetter from "./SubscribeToNewsLetter";
 export default function Footer() {
   return (
     <footer className=" bg-[#05060F] pt-[5.2rem] pb-[4.7rem] text-[1.6rem] font-normal px-10 text-white font-gilroy">
-      <div className=" footer flex flex-wrap justify-center gap-[35.9rem] gap-y-20  ">
+      <div className=" max-[700px]:justify-start flex flex-wrap justify-center gap-[35.9rem] gap-y-20  ">
         <div className="flex flex-col gap-[1.1rem]">
           <Logo />
           <span>Building Future Leaders.</span>
