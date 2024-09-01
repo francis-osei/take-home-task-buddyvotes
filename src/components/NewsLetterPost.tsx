@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function NewsLetterpost({
   title,
   content,
@@ -28,7 +30,7 @@ export default function NewsLetterpost({
         </div>
       </div>
       <div className="w-[16.4rem] h-[11.8rem]">
-        <img src={`${photo}`} className="rounded-[.4rem]" />
+        <Image src={`${photo}`} width={164} height={118}  alt='' className="rounded-[.4rem]" />
       </div>
     </div>
   );

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Button from "./Button";
 
 export default function Stories() {
@@ -13,28 +14,76 @@ export default function Stories() {
       </div>
 
       <div className="absolute hide-img  top-[10rem] left-[10rem] w-[15.1rem] h-[15.1rem]">
-        <img src="/page/Ellipse-1e1.jpg" alt="" />
+        <Image
+          src="/page/Ellipse-1e1.jpg"
+          layout="responsive"
+          width={151}
+          height={151}
+          alt=""
+        />
       </div>
       <div className="absolute hide-img top-[26rem] left-[25rem] w-[9rem] h-[9rem]">
-        <img src="/page/Ellipse-1e2.jpg" alt="" />
+        <Image
+          src="/page/Ellipse-1e2.jpg"
+          layout="responsive"
+          width={90}
+          height={90}
+          alt=""
+        />
       </div>
       <div className="absolute hide-img  top-[30rem] left-[41rem] w-[9rem] h-[9rem]">
-        <img src="/page/Ellipse-3e3.jpg" alt="" />
+        <Image
+          src="/page/Ellipse-3e3.jpg"
+          layout="responsive"
+          width={90}
+          height={90}
+          alt=""
+        />
       </div>
       <div className="absolute hide-img top-[32rem] left-[55rem] w-[15.8rem] h-[15.8rem]">
-        <img src="/page/Ellipse-4e4.jpg" alt="" />
+        <Image
+          src="/page/Ellipse-4e4.jpg"
+          layout="responsive"
+          width={320}
+          height={320}
+          alt=""
+        />
       </div>
       <div className="absolute hide-img top-[32rem] right-[55rem] w-[15.8rem] h-[15.8rem]">
-        <img src="page/Ellipse-4e5.jpg" alt="" />
+        <Image
+          src="/page/Ellipse-4e5.jpg"
+          layout="responsive"
+          width={320}
+          height={320}
+          alt=""
+        />
       </div>
       <div className="absolute hide-img top-[30rem] right-[41rem] w-[9rem] h-[9rem]">
-        <img src="/page/Ellipse-3e6.jpg" alt="" />
+        <Image
+          src="/page/Ellipse-3e6.jpg"
+          layout="responsive"
+          width={90}
+          height={90}
+          alt=""
+        />
       </div>
       <div className="absolute hide-img top-[26rem] right-[25rem] w-[9rem] h-[9rem]">
-        <img src="/page/Ellipse-2e7.jpg" alt="" />
+        <Image
+          src="/page/Ellipse-2e7.jpg"
+          layout="responsive"
+          width={90}
+          height={90}
+          alt=""
+        />
       </div>
       <div className="absolute hide-img top-[10rem] right-[10rem] w-[15.1rem] h-[15.1rem]">
-        <img src="/page/Ellipse-1e8.jpg" alt="" />
+        <Image
+          src="/page/Ellipse-1e8.jpg"
+          layout="responsive"
+          width={151}
+          height={151}
+          alt=""
+        />
       </div>
     </div>
   );

@@ -10,13 +10,13 @@ export default function NewsLetterCard({
   alt: string;
 }) {
   return (
-    <div className="max-w-[40.2rem] h-[37.2rem]">
+    <div className="post max-w-[40.2rem] h-[37.2rem]">
       <div className="relative">
-        <img
+        <Image
           className="w-full h-full object-cover"
-          // layout="responsive"
-          // width={402}
-          // height={372}
+          layout="responsive"
+          width={402}
+          height={372}
           alt={alt}
           src={photo}
         />

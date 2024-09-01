@@ -1,5 +1,6 @@
 import NewsLetterpost from "@/components/NewsLetterPost";
 import SideNav from "@/components/SideNav";
+import Image from "next/image";
 
 export default function Dashboard() {
   return (
@@ -18,7 +19,12 @@ export default function Dashboard() {
             </svg>
           </div>
           <div className="w-[4.6rem] h-[4.6rem]">
-            <img src="/page/Ellipse-3.jpg" alt="photo of the user" />
+            <Image
+              src="/page/Ellipse-3.jpg"
+              width={46}
+              height={46}
+              alt="photo of the user"
+            />
           </div>
         </div>
       </div>
@@ -45,7 +51,7 @@ export default function Dashboard() {
           <NewsLetterpost
             title="Lorem ipsum dolor sit amet consectetur."
             content="Lorem ipsum dolor sit amet consectetur. Pharetra enim cras lorem ac proin. Augue mauris aliquet ac sodales sit. Penatibus ac odio hendrerit posuere pharetra integer aliquet. Commodo donec tincidunt id sed at "
-            photo="/images/newsletter/young-black-boy.jpg"
+            photo="/images/newsletter/rectangle-14.jpg"
           />
           <NewsLetterpost
             title="Lorem ipsum dolor sit amet consectetur."
